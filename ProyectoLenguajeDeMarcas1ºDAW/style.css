@@ -1,0 +1,32 @@
+body nav{
+    padding: 50px;
+    background-color: white;
+}
+
+.ImageNavegador{
+    list-style-type: none;
+    margin-top: 7px;
+}
+
+.ImageNavegador img{
+    width: 65px;
+    height: 85px;
+}
+
+.Navegador{
+    float: right;
+    list-style-type: none;
+    
+}
+
+.Navegador a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    background-image: url(../Imagenes/ImagenesIndex/Index2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
