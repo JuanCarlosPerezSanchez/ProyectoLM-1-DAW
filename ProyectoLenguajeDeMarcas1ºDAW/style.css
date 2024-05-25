@@ -63,6 +63,7 @@ h2 {
 
 .oja {
     background-color: white;
+    margin: 0px;
 }
 
 h3 {
@@ -177,35 +178,33 @@ h5 {
 .Correo {
     width: 320px;
     height: 50px;
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: grey;
     font-size: 30px;
     color: black;
+    border-color: black;
 }
 .Correo::placeholder{
     color: dimgrey;
 }
 
 .Enviar {
-    width: 100px;
-    height: 45px;
+    width: 120px;
+    height: 55px;
     border-radius: 10px;
     border: none;
     background: linear-gradient(to bottom, darkgrey, black);
     margin-left: 50px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .Enviar a{
     text-decoration: none;
-    color: white;
+    color: lightgray;
 }
-
-
-
-
-
 
 footer {
     background-image: url(../Imagenes/ImagenesIndex/Separacion.png);
+    margin-top: 0px;
+    color: black;
 }
