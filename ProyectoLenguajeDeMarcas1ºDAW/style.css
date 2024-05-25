@@ -1,32 +1,79 @@
-body nav{
-    padding: 50px;
-    background-color: white;
-}
-
-.ImageNavegador{
-    list-style-type: none;
-    margin-top: 7px;
-}
-
-.ImageNavegador img{
-    width: 65px;
-    height: 85px;
-}
-
-.Navegador{
-    float: right;
-    list-style-type: none;
-    
-}
-
-.Navegador a{
-    text-decoration: none;
-    color: black;
-}
-
 body{
     background-image: url(../Imagenes/ImagenesIndex/Index2.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Navegador {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+}
+
+.ImageNavegador {
+    height: 70px;
+    margin-left: 15px;
+    margin-right: auto;
+}
+
+.BarraNavegacion {
+    list-style: none;
+    display: flex;
+    font-size: 15px;
+}
+
+.BarraNavegacion a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.Inicio{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    font-size: 55px;
+    margin: 0;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white
+}
+
+h2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    font-size: 30px;
+    margin: 0;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white
+}
+
+h3 {
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.Conocenos{
+    display: flex; 
+    background-color: white; 
+}
+.sConocenos{
+    flex: 70%;
+    margin: 40px;
+}
+
+.aConocenos{
+    flex: 30%;
+    margin: 40px;
 }
