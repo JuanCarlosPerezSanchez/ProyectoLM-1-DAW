@@ -85,6 +85,7 @@ h3 {
     margin-right: 70px;
     margin-left: 10px;
 }
+
 .aConocenos img {
     width: 600px; 
     height: auto;
@@ -92,7 +93,50 @@ h3 {
 }
 
 .separacion {
-    color: grey;
     background-color: grey;
     border-radius: 100%;
+}
+
+h4 {
+    padding-top: 50px;
+    padding-left: 100px;
+    font-size: 30px;
+}
+
+.CompYAlqu {
+    display: flex; 
+}
+
+.sCompYAlqu {
+    flex: 50%;
+    margin-left: 500px;
+}
+
+.sCompYAlqu img {
+    width: 215px;
+    height: auto;
+}
+
+.aCompYAlqu {
+    flex: 50%;
+    margin-left: 500px;
+}
+
+.aCompYAlqu img {
+    width: 215px;
+    height: auto;
+}
+
+.BCompYAlqu {
+    width: 100px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(to bottom, darkgrey, black);
+    margin-left: 50px;
+    font-size: 20px;
+}
+.BCompYAlqu a{
+    text-decoration: none;
+    color: white;
 }
