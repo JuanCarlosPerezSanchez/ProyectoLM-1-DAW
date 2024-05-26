@@ -456,6 +456,10 @@ footer {
     color: white;
 }
 
+.BBloques:hover {
+    background-color: #535353;
+}
+
 /* BOTONES ANTES FOOTER */
 
 .BsAnteFooter {
@@ -541,4 +545,163 @@ footer {
     color: black;
     padding-left: 100px;
     font-size: 30px;
+}
+
+.DetallesComprar1 {
+    display: flex;
+    margin-top: 50px;
+}
+
+.IDetallesComprar1 {
+    width: 460px;
+    height: 325px;
+    border-radius: 20px;
+    margin-left: 240px;
+}
+
+.IDetallesComprar2 {
+    width: 460px;
+    height: 325px;
+    border-radius: 20px;
+    margin-left: 25px;
+}
+
+.IDetallesComprar3 {
+    width: 460px;
+    height: 325px;
+    border-radius: 20px;
+    margin-left: 25px;
+}
+
+#TitulosDescripcion {
+    margin-left: 70px;
+}
+
+.DISecundariasB2 {
+    display: flex;
+}
+
+.ISecundariasB4 {
+    flex: 33%;
+    width: 70px;
+    height: auto;
+}
+
+.ISecundariasB4 img {
+    float: left;
+    width: 70px;
+    height: auto;
+    margin-left: 200px;
+}
+
+.ISecundariasB5 {
+    flex: 33%;
+    width: 70px;
+    height: auto;
+}
+
+.ISecundariasB5 img {
+    float: left;
+    width: 70px;
+    height: auto;
+}
+
+.ISecundariasB6 {
+    flex: 33%;
+    width: 70px;
+    height: auto;
+}
+
+.ISecundariasB6 img {
+    float: left;
+    width: 70px;
+    height: auto;
+}
+
+.ISecundariasB7 {
+    flex: 33%;
+    width: 70px;
+    height: auto;
+}
+
+.ISecundariasB7 img {
+    float: left;
+    width: 70px;
+    height: auto;
+}
+
+.ISecundariasP2 {
+    margin-left: 150px;
+    font-size: 22px;
+    text-align: left;
+}
+
+#ListaCaract {
+    display: flex;
+    margin-left: 380px;
+    font-size: 15px;
+}
+
+.SListaCaract {
+    flex: 30%;
+}
+
+.aListaCaract1 {
+    flex: 30%;
+    text-align: left;
+}
+
+.aListaCaract2 {
+    flex: 30%;
+    text-align: left;
+}
+
+#EquiYSinguP {
+    margin-left: 80px;
+}
+
+/* IMAGENES DETALLES COMPRAR */
+
+.IDetallesComprar4 {
+    width: 350px;
+    height: 270px;
+    border-radius: 20px;
+    margin-left: 380px;
+}
+
+.IDetallesComprar5 {
+    width: 350px;
+    height: 270px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.IDetallesComprar6 {
+    width: 350px;
+    height: 270px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.DetallesComprar2 {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.IDetallesComprar7 {
+    width: 600px;
+    height: 450px;
+    border-radius: 20px;
+    margin-left: 300px;
+}
+
+.IDetallesComprar8 {
+    width: 600px;
+    height: 450px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.Ubicacion {
+    text-align: center;
 }
