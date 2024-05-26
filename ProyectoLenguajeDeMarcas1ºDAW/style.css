@@ -8,7 +8,14 @@
     color: grey;
     font-size: 25px;
 }
-.bodyComprar1 {
+.bodyComprar {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: grey;
+    font-size: 25px;
+}
+
+.bodyDetallescomprar {
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: grey;
@@ -86,7 +93,7 @@
     margin: 0px;
 }
 
-.ojaComprar1 {
+.ojaComprar {
     background-color: white;
     margin: 50px 0px;
 }
@@ -452,8 +459,22 @@ footer {
 /* BOTONES ANTES FOOTER */
 
 .BsAnteFooter {
-    text-align: right;
+    text-align: left;
     margin-bottom: 50px;
+}
+
+.BsAnteFooterNR {
+    width: 25px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #535353;
+    border: none;
+}
+
+.BsAnteFooterNR a {
+    text-decoration: none;
+    color: white;
 }
 
 .BsAnteFooterN1 {
@@ -461,13 +482,13 @@ footer {
     height: 40px;
     font-size: 20px;
     border-radius: 5px;
-    background-color: #535353;
-    border: none;
+    background-color: white;
+    border: 1px solid black;
 }
 
 .BsAnteFooterN1 a {
     text-decoration: none;
-    color: white;
+    color: #535353;
 }
 
 .BsAnteFooterN2 {
@@ -480,20 +501,6 @@ footer {
 }
 
 .BsAnteFooterN2 a {
-    text-decoration: none;
-    color: #535353;
-}
-
-.BsAnteFooterN3 {
-    width: 25px;
-    height: 40px;
-    font-size: 20px;
-    border-radius: 5px;
-    background-color: white;
-    border: 1px solid black;
-}
-
-.BsAnteFooterN3 a {
     text-decoration: none;
     color: #535353;
 }
@@ -511,4 +518,27 @@ footer {
 .BsAnteFooterS a {
     text-decoration: none;
     color: white;
+}
+
+.BsAnteFooterA {
+    width: 100px;
+    height: 41px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #535353;
+    border: none;
+    margin-left: 130px;
+}
+
+.BsAnteFooterA a {
+    text-decoration: none;
+    color: white;
+}
+
+/* DETALLES COMPRAR */
+
+#h7 {
+    color: black;
+    padding-left: 100px;
+    font-size: 30px;
 }
