@@ -17,6 +17,7 @@
 
 
 /* BARRA NAVEGACIÓN HEADER */
+
 .Navegador {
     display: flex;
     align-items: center;
@@ -45,6 +46,7 @@
 
 
 /* RESALTO BARRA NAVEGACIÓN PAGINA EN LA QUE TE ENCUENTRAS*/
+
 .Resaltado{
     font-weight: bold;
     font-size: 17px;
@@ -52,10 +54,11 @@
 
 .FResaltado {
     font-weight: bold;
-    font-size: 30px;
+    font-size: 26px;
 }
 
 /* TITULOS INDEX */
+
 #h1 {
     position: absolute;
     left: 50%;
@@ -77,6 +80,7 @@
 }
 
 /* OJAS */
+
 .ojaIndex {
     background-color: white;
     margin: 0px;
@@ -84,11 +88,12 @@
 
 .ojaComprar1 {
     background-color: white;
-    margin: 0px;
+    margin: 50px 0px;
 }
 
 
 /* APARTADO CONOCENOS */
+
 #h3 {
     color: black;
     padding-top: 50px;
@@ -121,6 +126,7 @@
 
 
 /* LINEA SEPARACIÓN */
+
 .separacion {
     background-image: url(../Imagenes/ImagenesIndex/Separacion.png);
     border-radius: 40px;
@@ -130,6 +136,7 @@
 
 
 /* APARTADO COMPRAR Y ALQUILAR */
+
 #h4 {
     color: black;
     padding-top: 50px;
@@ -177,6 +184,7 @@
 
 
 /* APARTADO NUESTRA EMPRESA */
+
 #h5 {
     color: black;
     padding-top: 50px;
@@ -198,6 +206,7 @@
 
 
 /* FINAL INDEX CORREO Y ENVIAR */
+
 .Suscribete {
     text-align: center;
 }
@@ -237,6 +246,7 @@
 
 
 /* FOOTER */
+
 footer {
     background-image: url(../Imagenes/ImagenesIndex/Separacion.png);
     margin-top: 0px;
@@ -247,15 +257,21 @@ footer {
     display: flex;
 }
 
-.sfooter {
+.PfooterTOP {
+    padding-top: 40px;
+}
+
+.sfooter p {
     flex: 33%;
-    margin-top: 30px;
-    margin-left: 20px;
+    font-size: 20px;
+    padding-left: 20px;
 }
 
 .a1footer {
     flex: 33%;
     text-align: center;
+    padding-left: 189px;
+    font-size: 20px;
 }
 
 .a2footer {
@@ -290,7 +306,7 @@ footer {
 
 .FBarraNavegacion {
     list-style: none;
-    font-size: 25px;
+    font-size: 21px;
 }
 
 .FBarraNavegacion li {
@@ -301,12 +317,17 @@ footer {
     text-decoration: none;
     color: black;
 }
+
+.FBarraNavegacion p{
+    font-size: 15px;
+}
+
 .Marcas {
     font-size: 17px;
 }
 
 .AvisoYCookies {
-    font-size: 10px;
+    font-size: 16px;
 }
 
 #h6 {
@@ -412,7 +433,7 @@ footer {
 }
 
 .BBloques {
-    width: 100px;
+    width: 90px;
     height: 45px;
     border-radius: 15px;
     border: none;
@@ -422,7 +443,72 @@ footer {
     margin-bottom: 10px;
     font-size: 20px;
 }
+
 .BBloques a{
+    text-decoration: none;
+    color: white;
+}
+
+/* BOTONES ANTES FOOTER */
+
+.BsAnteFooter {
+    text-align: right;
+    margin-bottom: 50px;
+}
+
+.BsAnteFooterN1 {
+    width: 25px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #535353;
+    border: none;
+}
+
+.BsAnteFooterN1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.BsAnteFooterN2 {
+    width: 25px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.BsAnteFooterN2 a {
+    text-decoration: none;
+    color: #535353;
+}
+
+.BsAnteFooterN3 {
+    width: 25px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.BsAnteFooterN3 a {
+    text-decoration: none;
+    color: #535353;
+}
+
+.BsAnteFooterS {
+    width: 100px;
+    height: 41px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #535353;
+    border: none;
+    margin-right: 130px;
+}
+
+.BsAnteFooterS a {
     text-decoration: none;
     color: white;
 }
