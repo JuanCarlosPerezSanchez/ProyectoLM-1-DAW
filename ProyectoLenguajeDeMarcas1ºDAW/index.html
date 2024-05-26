@@ -6,12 +6,12 @@
     <title>Index</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="bodyIndex">
     <header>
-        <nav class="Navegador">
+        <nav class="Navegador" id="DestinoFlecha">
             <a href=""><img src="../Imagenes/ImagenesIndex/Index1.png" alt="Inicio" class="ImageNavegador"></a>
             <ul class="BarraNavegacion">
-                <li class="Inicio"><a href="">Inicio</a></li>
+                <li class="Resaltado"><a href="">Inicio</a></li>
                 <li><a href="comprar1.html">Comprar</a></li>
                 <li><a href="alquilar1.html">Alquilar</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
@@ -19,11 +19,11 @@
         </nav>
     </header>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <h1>Inmobiliaria Sol</h1><br><br><br>
-    <h2>Tu inmobiliaria de confianza</h2><br><br><br>
-    <div class="oja">
+    <h1 id="h1">Inmobiliaria Sol</h1><br><br><br>
+    <h2 id="h2">Tu inmobiliaria de confianza</h2><br><br><br>
+    <div class="ojaIndex">
         <div class="TConocenos">
-            <h3>Conócenos</h3>
+            <h3 id="h3">Conócenos</h3>
             <div class="Conocenos">
                 <section class="sConocenos">
                     <p>Inmobiliaria Sol es una de las compañías de servicios líderes en el mundo especializada en la intermediación de inmuebles residenciales y comerciales, así como de yates y aviones. Presente en más de 800 localizaciones en el mundo, Inmobiliaria Sol ofrece tanto a clientes particulares como institucionales una gran vriedad de servicios profesionales a su medida.<br><br>Asesoría. venta y alquiler conforman las competencias claves de los mas de 10.000 empleados.<br><br>Actualmente la compañía está operando en mas de 30 países en cuatro continentes.</p>
@@ -36,7 +36,7 @@
                 <div class="separacion"></div>
 
         <div class="TCompYAlqu">
-            <h4>Compra y alquiler</h4>
+            <h4 id="h4">Compra y alquiler</h4>
             <div class="CompYAlqu">
                 <section class="sCompYAlqu">
                     <img src="../Imagenes/ImagenesIndex/Index4.png"><br><br>
@@ -50,7 +50,7 @@
         </div><br><br>
                 <div class="separacion"></div>
         <div class="TNuesEmpresa">
-            <h5>Nuestra Empresa</h5>
+            <h5 id="h5">Nuestra Empresa</h5>
             <div class="NuesEmpresa">
                 <img src="../Imagenes/ImagenesIndex/Index3.png">
                 <p>Inmobiliaria Sol, somos un equipo de profesionales con dilatada experiencia en el sector, tenemos nuestro origen en el seno de una empresa familiar dedicada a la promoción y construcción.<br><br>Nuestro nacimiento hace maás de 15 años como constructora y promotora, nos ha llevado a tener conocimiento exhaustivo de todas y cada una de las fases del proceso: desde la concepción del proyecto hasta su comercialización.<br><br>El éxito en la intermediación inmobiliaria nos ha llevado a crear Inmobiliaria Sol división e la empresa especializada en la gestión a la venta de inmuebles, proporcionamos a nuestros clientes el mejor asesoramiento integral, nos involucramos en la búsqueda de propiedades, compra-venta, alquileres de la larga duración, inversiones (para lo cual disponemos de un departamento especifico para grandes cuentas) gestiones hipotecarias, tasaciones, certificados energéticos, asistecias en notaria, concluyendo con la gestion de reformas y decoración a través de nuestra División de Mantenimiento.<br><br>Sabemos con qué ilusión se vive todo el proceso al adquirir una vivienda que será su hogar.<br><br>Nuestro objetivo principal es lograr ofrecer a nuestros clientes las mejores ofertas de la Costa del Sol.<br><br>Inmobiliaria Sol, especialistas en venta y alquiler de viviendas en la Costa del Sol.</p>
@@ -61,17 +61,32 @@
         <div class="CorrYEnviar">
             <input  class="Correo" type="text" placeholder="Correo Electrónico">
             <button class="Enviar"><a href="">Enviar</a></button>
-        </div>
+        </div><br><br>
     </div>
     <footer>
-        <div>
-            <p>Inmobiliaria Sol, S.A.<br><br>Av.Severo Ochoa, Marbella, Ancalucía<br><br>(+34) 654 321 987<br><br> contacto@inmobiliariasol.com</p>
-        </div>
-        <div>
-
-        </div>
-        <div>
-
+        <div class="footer">
+            <section class="sfooter">
+                <p>&nbspInmobiliaria Sol, S.A.</p>
+                <p><img src="../Imagenes/ImagenesIndex/Alfiler.png">&nbsp Av.Severo Ochoa, Marbella, Ancalucía</p>
+                <p><img src="../Imagenes/ImagenesIndex/Telefono.png">&nbsp (+34) 654 321 987</p>
+                <p><img src="../Imagenes/ImagenesIndex/Arroba.png">&nbsp contacto@inmobiliariasol.com</p>
+            </section>
+            <aside class="a1footer">
+                <nav class="FNavegador">
+            <ul class="FBarraNavegacion">
+                <li class="FFlecha"><a href="#DestinoFlecha"><img src="../Imagenes/ImagenesIndex/CirculoDeFlecha.png"></a></li>
+                <li class="FResaltado"><a href="">Inicio</a></li>
+                <li><a href="comprar1.html">Comprar</a></li>
+                <li><a href="alquilar1.html">Alquilar</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <p>&copy; 2024 Inmobiliaria Sol, S.A.</p>
+            </ul>
+        </nav>
+            </aside>
+            <aside class="a2footer">
+                <p class="Marcas"><img src="../Imagenes/ImagenesIndex/LFacebook.png"><img src="../Imagenes/ImagenesIndex/LInstagram.png"><img src="../Imagenes/ImagenesIndex/LTwitter.png"></p>
+                <p class="AvisoYCookies">Aviso Legal &nbsp &nbsp Cookies</p>
+            </aside>
         </div>
     </footer>
 </body>

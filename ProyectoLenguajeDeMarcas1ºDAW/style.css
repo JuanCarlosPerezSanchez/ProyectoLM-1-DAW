@@ -1,4 +1,4 @@
-body{
+.bodyIndex{
     background-image: url(../Imagenes/ImagenesIndex/Index2.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -6,9 +6,17 @@ body{
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: grey;
-    font-size: 28px;
+    font-size: 25px;
+}
+.bodyComprar1 {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: grey;
+    font-size: 25px;
 }
 
+
+/* BARRA NAVEGACIÓN HEADER */
 .Navegador {
     display: flex;
     align-items: center;
@@ -33,15 +41,22 @@ body{
     text-decoration: none;
     color: black;
     padding: 8px 16px;
-    border-radius: 4px;
 }
 
-.Inicio{
+
+/* RESALTO BARRA NAVEGACIÓN PAGINA EN LA QUE TE ENCUENTRAS*/
+.Resaltado{
     font-weight: bold;
     font-size: 17px;
 }
 
-h1 {
+.FResaltado {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* TITULOS INDEX */
+#h1 {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -51,7 +66,7 @@ h1 {
     text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white
 }
 
-h2 {
+#h2 {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -61,12 +76,20 @@ h2 {
     text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white
 }
 
-.oja {
+/* OJAS */
+.ojaIndex {
     background-color: white;
     margin: 0px;
 }
 
-h3 {
+.ojaComprar1 {
+    background-color: white;
+    margin: 0px;
+}
+
+
+/* APARTADO CONOCENOS */
+#h3 {
     color: black;
     padding-top: 50px;
     padding-left: 100px;
@@ -96,6 +119,8 @@ h3 {
     border-radius: 20px;
 }
 
+
+/* LINEA SEPARACIÓN */
 .separacion {
     background-image: url(../Imagenes/ImagenesIndex/Separacion.png);
     border-radius: 40px;
@@ -103,7 +128,9 @@ h3 {
     margin: 50px 100px;
 }
 
-h4 {
+
+/* APARTADO COMPRAR Y ALQUILAR */
+#h4 {
     color: black;
     padding-top: 50px;
     padding-left: 100px;
@@ -148,7 +175,9 @@ h4 {
     color: white;
 }
 
-h5 {
+
+/* APARTADO NUESTRA EMPRESA */
+#h5 {
     color: black;
     padding-top: 50px;
     padding-left: 100px;
@@ -164,9 +193,11 @@ h5 {
     margin-right: 50px;
 }
 .NuesEmpresa p {
-    margin-left: 5px;
+    margin-left: 90px;
 }
 
+
+/* FINAL INDEX CORREO Y ENVIAR */
 .Suscribete {
     text-align: center;
 }
@@ -189,9 +220,9 @@ h5 {
 }
 
 .Enviar {
-    width: 120px;
-    height: 55px;
-    border-radius: 10px;
+    width: 150px;
+    height: 60px;
+    border-radius: 15px;
     border: none;
     background: linear-gradient(to bottom, darkgrey, black);
     margin-left: 50px;
@@ -203,8 +234,82 @@ h5 {
     color: lightgray;
 }
 
+
+/* FOOTER */
 footer {
     background-image: url(../Imagenes/ImagenesIndex/Separacion.png);
     margin-top: 0px;
     color: black;
+}
+
+.footer {
+    display: flex;
+}
+
+.sfooter {
+    flex: 33%;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.a1footer {
+    flex: 33%;
+    text-align: center;
+}
+
+.a2footer {
+    flex: 33%;
+    text-align: center;
+}
+
+.a2footer img {
+    width: 60px;
+    height: auto;
+    padding-top: 100px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+
+/* NAVEGACION FOOTER */
+
+.FFlecha img{
+    width: 70px;
+    height: auto;
+}
+
+.FNavegador {
+    padding: 10px;
+}
+
+.ImageNavegador {
+    height: 70px;
+    margin-left: 15px;
+    margin-right: auto;
+}
+
+.FBarraNavegacion {
+    list-style: none;
+    font-size: 25px;
+}
+
+.FBarraNavegacion li {
+    margin-top: 10px;
+}
+
+.FBarraNavegacion a {
+    text-decoration: none;
+    color: black;
+}
+.Marcas {
+    font-size: 17px;
+}
+
+.AvisoYCookies {
+    font-size: 10px;
+}
+
+#h6 {
+    color: black;
+    padding-left: 100px;
+    font-size: 30px;
 }
